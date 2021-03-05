@@ -16,15 +16,15 @@ class App extends React.Component {
     return (
       <div className="App">
         <h1>House M.D.</h1>
-        <Route exact path="/" component={Homepage} />
-        <Route exact path="/about" component={About} />
-        <Route path="/characters" component={CharactersPage} />
-        <Route exact path="/characters/greg_house" component={ GregHouse } />
-        <Route exact path="/characters/eric_foreman" component={ EricForeman } />
-        <Route exact path="/characters/robert_chase" component={ RobertChase } />
-        <Route exact path="/characters/allison_cameron" component={ AllisonCameron } />
-        <Route exact path="/characters/lisa_cuddy" component={ LisaCuddy } />
-        <Route exact path="/characters/james_wilson" component={ JamesWilson } />
+        <Route exact path="/React-Router-Demo" component={Homepage} />
+        <Route exact path="/React-Router-Demo/about" component={About} />
+        <Route path="/React-Router-Demo/characters" component={CharactersPage} />
+        <Route exact path="/React-Router-Demo/characters/greg_house" component={ GregHouse } />
+        <Route exact path="/React-Router-Demo/characters/eric_foreman" component={ EricForeman } />
+        <Route exact path="/React-Router-Demo/characters/robert_chase" component={ RobertChase } />
+        <Route exact path="/React-Router-Demo/characters/allison_cameron" component={ AllisonCameron } />
+        <Route exact path="/React-Router-Demo/characters/lisa_cuddy" component={ LisaCuddy } />
+        <Route exact path="/React-Router-Demo/characters/james_wilson" component={ JamesWilson } />
       </div>
     );
   }
