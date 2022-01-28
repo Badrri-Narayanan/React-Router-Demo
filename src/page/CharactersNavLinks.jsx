@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 import { Link, Route, Routes } from 'react-router-dom';
 import AllisonCameron from './Characters/AllisonCameron'
 import EricForeman from './Characters/EricForeman'

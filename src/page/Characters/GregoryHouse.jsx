@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 import House from '../../images/House.jpg'
 
 const GregoryHouse = () => (
